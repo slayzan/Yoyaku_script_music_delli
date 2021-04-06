@@ -4,7 +4,7 @@ require 'pp'
 require_relative 'lib/release'
 require_relative 'lib/builder'
 
-file = File.read("data/input.xml")
+file = File.read(ARGV[0])
 
 xml = Nokogiri::XML(file)
 
@@ -46,11 +46,6 @@ def nilProtection(xml,release)
     build_xml(release,xml)
 end
 
-test = createSongs(xml)
+createSongs(xml)
 
 
-#build_xml(test)
-test = xml.xpath("//Label")[0].content
-# xml.xpath("//Name").each do |node|
-   # pp node.content
- #end
