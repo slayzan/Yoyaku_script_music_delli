@@ -14,20 +14,13 @@ def nbSongs(xml)
     return nbSongs
 end
 
-
-def createRelease(xml)
-    release = Array.new
-    release[0] = Release.new(xml.xpath("//Name")[0].content, xml.xpath("//Artists")[0].content, xml.xpath("//MainGenre")[0].content, xml.xpath("//Genre")[0].content)
-    release[0].init_release(xml.xpath("//Catalog")[0].content, xml.xpath("//Label")[0].content,xml.xpath("//PYear")[0].content)
-    return release
-end
-
 def createSongs(xml)
-    release = createRelease(xml)
+    release = Array.new
     i = 0
     j = 1
     j.upto(nbSongs(xml)) do |song|
-        release[j] = Songs.new(xml.xpath("//Name")[j].content, xml.xpath("//PrimaryArtists")[i].content, xml.xpath("//MainGenre")[j].content, xml.xpath("//Genre")[j].content, xml.xpath("//TrackNumber")[i].content)
+        release[i] = Song.new(xml.xpath("//Name")[j].content, xml.xpath("//PrimaryArtists")[i].content, xml.xpath("//MainGenre")[i].content,
+        xml.xpath("//Genre")[j].content,xml.xpath("//TrackNumber")[i].content, xml.xpath("//AudioFile")[i].content) rescue nil
         j = j + 1
         i = i + 1
     end
@@ -41,8 +34,8 @@ def nilProtection(xml,release)
         i = i + 1
     end
     i = 1
-    xml.xpath("//Product_tags").each do |node|
-        release[i].add_description(node.content) rescue nil
+    xml.xpath("//FeaturingArtists").each do |node|
+        release[i].add_featArtists(node.content) rescue nil
         i = i + 1
     end
     i = 1
@@ -50,7 +43,7 @@ def nilProtection(xml,release)
         release[i].add_description(node.content) rescue nil
         i = i + 1
     end
-    build_xml(release)
+    build_xml(release,xml)
 end
 
 test = createSongs(xml)

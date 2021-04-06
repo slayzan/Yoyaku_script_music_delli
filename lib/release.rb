@@ -26,7 +26,7 @@ class Songs < Release
         @name = name
     end
 end
-=end
+
 
 class Release
     attr_accessor :name, :main_genre, :secondary_genre, :artists, :sku, :label, :pYear, :track_number, :description
@@ -44,15 +44,25 @@ class Release
         @pYear= pYear
     end
 end
+=end
 
-class Songs < Release
-    attr_accessor :track_number, :description
+class Song
+    attr_accessor :track_number, :description , :name, :main_genre, :secondary_genre, :artists, :slug, :feat_artist
     
-    def initialize(name, artists, main_genre, secondary_genre,track_number)
-        super(name, artists, main_genre, secondary_genre)
+    def initialize(name, artists, main_genre, secondary_genre,track_number, slug)
+        @name = name
+        @artists = artists
+        @main_genre = main_genre
+        @secondary_genre = secondary_genre
         @track_number = track_number
+        @slug = slug
     end
+
     def add_description(description)
         @description = description
+    end
+    
+    def add_featArtists(feat_artist)
+        @feat_artist = feat_artist
     end
 end
