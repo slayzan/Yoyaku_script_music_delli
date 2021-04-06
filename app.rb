@@ -1,7 +1,8 @@
 require 'nokogiri'
 require 'open-uri'
 require 'pp'
-require_relative 'lib/album'
+require_relative 'lib/release'
+require_relative 'lib/builder'
 
 file = File.read("data/input.xml")
 
@@ -26,16 +27,25 @@ def createSongs(xml)
     i = 0
     j = 1
     1.upto(nbSongs(xml)) do |song|
-       
         release[j] = Songs.new(xml.xpath("//TrackNumber")[i].content, xml.xpath("//MainGenre")[i].content, xml.xpath("//Genre")[i].content, xml.xpath("//Name")[i].content)
         i = i + 1
         j = j + 1
     end
-    return release
+     nilProtection(xml,release)
+end
+
+def nilProtection(xml,release)
+    i = 0
+    xml.xpath("//Short_description").each do |node|
+        pp "ok"
+        release[i] = release[0].add_description(node.content)
+        pp release[i]
+    end
+
 end
 
 test = createSongs(xml)
-pp test[1].name
+#build_xml(test)
 
 
 
