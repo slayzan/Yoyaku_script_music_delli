@@ -40,7 +40,7 @@ def build_xml(release, file)
                     xml.product_visibility "hidden"
                     xml.featured_image "https://www.aze.digital/wp-content/uploads/#{file.xpath("//PYear")[0].content}/#{file.xpath("//Catalog")[0].content}.jpg"
                     xml.download_file_name song.feat_artist ? "#{song.artists} & #{song.feat_artist} - #{song.name} #{file.xpath("//Catalog")[0].content}.wav" : "#{song.artists} - #{song.name} #{file.xpath("//Catalog")[0].content}.wav"
-                    xml.playlist_data  song.feat_artist ? "<a href=\"http:\/\/player.yoyaku.io/mp3/#{file.xpath("//Catalog")[0].content}_#{song.track_number}.mp3>#{song.artists} & #{song.feat_artist} - #{song.name}</a>" :  "<a href=\"http:\/\/player.yoyaku.io/mp3/#{file.xpath("//Catalog")[0].content}_#{song.track_number}.mp3>#{song.artists} - #{song.name}</a>"
+                    xml.playlist_data  song.feat_artist ? "<a href=\"http:\/\/player.yoyaku.io/mp3/#{file.xpath("//Catalog")[0].content}_#{song.track_number}.mp3\">#{song.artists} & #{song.feat_artist} - #{song.name}</a>" :  "<a href=\"http:\/\/player.yoyaku.io/mp3/#{file.xpath("//Catalog")[0].content}_#{song.track_number}.mp3\">#{song.artists} - #{song.name}</a>"
             }
             end
         }

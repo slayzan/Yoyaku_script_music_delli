@@ -58,7 +58,7 @@ end
 def buildDataTrack(release,file)
     data = ""
     release.each do |song| 
-        data = song.feat_artist ? data + "<a href=\"http:\/\/player.yoyaku.io/mp3/#{file.xpath("//Catalog")[0].content}_#{song.track_number}.mp3>#{song.artists} & #{song.feat_artist} - #{song.name}</a>\n" : data + "<a href=\"http:\/\/player.yoyaku.io/mp3/#{file.xpath("//Catalog")[0].content}_#{song.track_number}.mp3>#{song.artists} - #{song.name}</a>\n"
+        data = song.feat_artist ? data + "<a href=\"http:\/\/player.yoyaku.io/mp3/#{file.xpath("//Catalog")[0].content}_#{song.track_number}.mp3\">#{song.artists} & #{song.feat_artist} - #{song.name}</a>\n" : data + "<a href=\"http:\/\/player.yoyaku.io/mp3/#{file.xpath("//Catalog")[0].content}_#{song.track_number}.mp3\">#{song.artists} - #{song.name}</a>\n"
     end
     return data
 end
