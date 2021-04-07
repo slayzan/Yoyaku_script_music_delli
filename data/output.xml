@@ -10,20 +10,29 @@
     <genres>Pop|Pop</genres>
     <years>2021</years>
     <type>release</type>
-    <price>8</price>
-    <owners/>
+    <price>11.61</price>
+    <description/>
+    <owners>music deli</owners>
     <product_visibility>visible</product_visibility>
-    <featured_image>lien image</featured_image>
+    <featured_image>https://www.aze.digital/wp-content/uploads/2021/MFM054.jpg</featured_image>
     <download_file_name>The Zenmenn - Enter The Zenmenn MFM054</download_file_name>
     <file_path/>
-    <playlist_data_album/>
-    <playlist_data_track/>
+    <playlist_data>&lt;a href="http://player.yoyaku.io/mp3/MFM054_1.mp3&gt;The Zenmenn - The Magic Eye&lt;/a&gt;
+&lt;a href="http://player.yoyaku.io/mp3/MFM054_2.mp3&gt;The Zenmenn &amp; John Moods - Homage To A Friendship&lt;/a&gt;
+&lt;a href="http://player.yoyaku.io/mp3/MFM054_3.mp3&gt;The Zenmenn - Flags Of The World&lt;/a&gt;
+&lt;a href="http://player.yoyaku.io/mp3/MFM054_4.mp3&gt;The Zenmenn - Bamboo Garden&lt;/a&gt;
+&lt;a href="http://player.yoyaku.io/mp3/MFM054_5.mp3&gt;The Zenmenn - Stairway To Heaven&lt;/a&gt;
+&lt;a href="http://player.yoyaku.io/mp3/MFM054_6.mp3&gt;The Zenmenn - Salad Bar&lt;/a&gt;
+&lt;a href="http://player.yoyaku.io/mp3/MFM054_7.mp3&gt;The Zenmenn - Topaz (The Days Of Our Lives)&lt;/a&gt;
+&lt;a href="http://player.yoyaku.io/mp3/MFM054_8.mp3&gt;The Zenmenn - Bella Fantasia&lt;/a&gt;
+&lt;a href="http://player.yoyaku.io/mp3/MFM054_9.mp3&gt;The Zenmenn - Topaz 2&lt;/a&gt;
+</playlist_data>
   </post>
   <post>
     <title>The Magic Eye</title>
-    <sku>1</sku>
+    <sku>MFM054-1</sku>
     <short_description/>
-    <slug>MFM054_1.wav</slug>
+    <slug>MFM054_1</slug>
     <sku_ep>MFM054</sku_ep>
     <product_tags/>
     <product_categories/>
@@ -32,17 +41,18 @@
     <genres>Pop|Pop</genres>
     <years>2021</years>
     <type>song</type>
-    <price>6</price>
-    <owners/>
+    <price>1.29</price>
+    <owners>music deli</owners>
     <product_visibility>hidden</product_visibility>
+    <featured_image>https://www.aze.digital/wp-content/uploads/2021/MFM054.jpg</featured_image>
     <download_file_name>The Zenmenn - The Magic Eye MFM054.wav</download_file_name>
-    <playlist_data_track>&lt;a href="http://player.yoyaku.io/mp3/MFM054_1.mp3&gt;The Zenmenn| - The Magic Eye&lt;/a&gt;</playlist_data_track>
+    <playlist_data>&lt;a href="http://player.yoyaku.io/mp3/MFM054_1.mp3&gt;The Zenmenn - The Magic Eye&lt;/a&gt;</playlist_data>
   </post>
   <post>
     <title>Homage To A Friendship</title>
-    <sku>2</sku>
+    <sku>MFM054-2</sku>
     <short_description>hello world</short_description>
-    <slug>MFM054_2.wav</slug>
+    <slug>MFM054_2</slug>
     <sku_ep>MFM054</sku_ep>
     <product_tags/>
     <product_categories/>
@@ -51,17 +61,18 @@
     <genres>Pop|Pop</genres>
     <years>2021</years>
     <type>song</type>
-    <price>6</price>
-    <owners/>
+    <price>1.29</price>
+    <owners>music deli</owners>
     <product_visibility>hidden</product_visibility>
+    <featured_image>https://www.aze.digital/wp-content/uploads/2021/MFM054.jpg</featured_image>
     <download_file_name>The Zenmenn &amp; John Moods - Homage To A Friendship MFM054.wav</download_file_name>
-    <playlist_data_track>&lt;a href="http://player.yoyaku.io/mp3/MFM054_2.mp3&gt;The Zenmenn|John Moods - Homage To A Friendship&lt;/a&gt;</playlist_data_track>
+    <playlist_data>&lt;a href="http://player.yoyaku.io/mp3/MFM054_2.mp3&gt;The Zenmenn &amp; John Moods - Homage To A Friendship&lt;/a&gt;</playlist_data>
   </post>
   <post>
     <title>Flags Of The World</title>
-    <sku>3</sku>
+    <sku>MFM054-3</sku>
     <short_description/>
-    <slug>MFM054_3.wav</slug>
+    <slug>MFM054_3</slug>
     <sku_ep>MFM054</sku_ep>
     <product_tags/>
     <product_categories/>
@@ -70,17 +81,18 @@
     <genres>Pop|Electro</genres>
     <years>2021</years>
     <type>song</type>
-    <price>6</price>
-    <owners/>
+    <price>1.29</price>
+    <owners>music deli</owners>
     <product_visibility>hidden</product_visibility>
+    <featured_image>https://www.aze.digital/wp-content/uploads/2021/MFM054.jpg</featured_image>
     <download_file_name>The Zenmenn - Flags Of The World MFM054.wav</download_file_name>
-    <playlist_data_track>&lt;a href="http://player.yoyaku.io/mp3/MFM054_3.mp3&gt;The Zenmenn| - Flags Of The World&lt;/a&gt;</playlist_data_track>
+    <playlist_data>&lt;a href="http://player.yoyaku.io/mp3/MFM054_3.mp3&gt;The Zenmenn - Flags Of The World&lt;/a&gt;</playlist_data>
   </post>
   <post>
     <title>Bamboo Garden</title>
-    <sku>4</sku>
+    <sku>MFM054-4</sku>
     <short_description/>
-    <slug>MFM054_4.wav</slug>
+    <slug>MFM054_4</slug>
     <sku_ep>MFM054</sku_ep>
     <product_tags/>
     <product_categories/>
@@ -89,17 +101,18 @@
     <genres>Pop|Pop</genres>
     <years>2021</years>
     <type>song</type>
-    <price>6</price>
-    <owners/>
+    <price>1.29</price>
+    <owners>music deli</owners>
     <product_visibility>hidden</product_visibility>
+    <featured_image>https://www.aze.digital/wp-content/uploads/2021/MFM054.jpg</featured_image>
     <download_file_name>The Zenmenn - Bamboo Garden MFM054.wav</download_file_name>
-    <playlist_data_track>&lt;a href="http://player.yoyaku.io/mp3/MFM054_4.mp3&gt;The Zenmenn| - Bamboo Garden&lt;/a&gt;</playlist_data_track>
+    <playlist_data>&lt;a href="http://player.yoyaku.io/mp3/MFM054_4.mp3&gt;The Zenmenn - Bamboo Garden&lt;/a&gt;</playlist_data>
   </post>
   <post>
     <title>Stairway To Heaven</title>
-    <sku>5</sku>
+    <sku>MFM054-5</sku>
     <short_description/>
-    <slug>MFM054_5.wav</slug>
+    <slug>MFM054_5</slug>
     <sku_ep>MFM054</sku_ep>
     <product_tags/>
     <product_categories/>
@@ -108,17 +121,18 @@
     <genres>Pop|Pop</genres>
     <years>2021</years>
     <type>song</type>
-    <price>6</price>
-    <owners/>
+    <price>1.29</price>
+    <owners>music deli</owners>
     <product_visibility>hidden</product_visibility>
+    <featured_image>https://www.aze.digital/wp-content/uploads/2021/MFM054.jpg</featured_image>
     <download_file_name>The Zenmenn - Stairway To Heaven MFM054.wav</download_file_name>
-    <playlist_data_track>&lt;a href="http://player.yoyaku.io/mp3/MFM054_5.mp3&gt;The Zenmenn| - Stairway To Heaven&lt;/a&gt;</playlist_data_track>
+    <playlist_data>&lt;a href="http://player.yoyaku.io/mp3/MFM054_5.mp3&gt;The Zenmenn - Stairway To Heaven&lt;/a&gt;</playlist_data>
   </post>
   <post>
     <title>Salad Bar</title>
-    <sku>6</sku>
+    <sku>MFM054-6</sku>
     <short_description/>
-    <slug>MFM054_6.wav</slug>
+    <slug>MFM054_6</slug>
     <sku_ep>MFM054</sku_ep>
     <product_tags/>
     <product_categories/>
@@ -127,17 +141,18 @@
     <genres>Pop|Pop</genres>
     <years>2021</years>
     <type>song</type>
-    <price>6</price>
-    <owners/>
+    <price>1.29</price>
+    <owners>music deli</owners>
     <product_visibility>hidden</product_visibility>
+    <featured_image>https://www.aze.digital/wp-content/uploads/2021/MFM054.jpg</featured_image>
     <download_file_name>The Zenmenn - Salad Bar MFM054.wav</download_file_name>
-    <playlist_data_track>&lt;a href="http://player.yoyaku.io/mp3/MFM054_6.mp3&gt;The Zenmenn| - Salad Bar&lt;/a&gt;</playlist_data_track>
+    <playlist_data>&lt;a href="http://player.yoyaku.io/mp3/MFM054_6.mp3&gt;The Zenmenn - Salad Bar&lt;/a&gt;</playlist_data>
   </post>
   <post>
     <title>Topaz (The Days Of Our Lives)</title>
-    <sku>7</sku>
+    <sku>MFM054-7</sku>
     <short_description/>
-    <slug>MFM054_7.wav</slug>
+    <slug>MFM054_7</slug>
     <sku_ep>MFM054</sku_ep>
     <product_tags/>
     <product_categories/>
@@ -146,17 +161,18 @@
     <genres>Pop|Pop</genres>
     <years>2021</years>
     <type>song</type>
-    <price>6</price>
-    <owners/>
+    <price>1.29</price>
+    <owners>music deli</owners>
     <product_visibility>hidden</product_visibility>
+    <featured_image>https://www.aze.digital/wp-content/uploads/2021/MFM054.jpg</featured_image>
     <download_file_name>The Zenmenn - Topaz (The Days Of Our Lives) MFM054.wav</download_file_name>
-    <playlist_data_track>&lt;a href="http://player.yoyaku.io/mp3/MFM054_7.mp3&gt;The Zenmenn| - Topaz (The Days Of Our Lives)&lt;/a&gt;</playlist_data_track>
+    <playlist_data>&lt;a href="http://player.yoyaku.io/mp3/MFM054_7.mp3&gt;The Zenmenn - Topaz (The Days Of Our Lives)&lt;/a&gt;</playlist_data>
   </post>
   <post>
     <title>Bella Fantasia</title>
-    <sku>8</sku>
+    <sku>MFM054-8</sku>
     <short_description/>
-    <slug>MFM054_8.wav</slug>
+    <slug>MFM054_8</slug>
     <sku_ep>MFM054</sku_ep>
     <product_tags/>
     <product_categories/>
@@ -165,17 +181,18 @@
     <genres>Pop|Pop</genres>
     <years>2021</years>
     <type>song</type>
-    <price>6</price>
-    <owners/>
+    <price>1.29</price>
+    <owners>music deli</owners>
     <product_visibility>hidden</product_visibility>
+    <featured_image>https://www.aze.digital/wp-content/uploads/2021/MFM054.jpg</featured_image>
     <download_file_name>The Zenmenn - Bella Fantasia MFM054.wav</download_file_name>
-    <playlist_data_track>&lt;a href="http://player.yoyaku.io/mp3/MFM054_8.mp3&gt;The Zenmenn| - Bella Fantasia&lt;/a&gt;</playlist_data_track>
+    <playlist_data>&lt;a href="http://player.yoyaku.io/mp3/MFM054_8.mp3&gt;The Zenmenn - Bella Fantasia&lt;/a&gt;</playlist_data>
   </post>
   <post>
     <title>Topaz 2</title>
-    <sku>9</sku>
+    <sku>MFM054-9</sku>
     <short_description/>
-    <slug>MFM054_9.wav</slug>
+    <slug>MFM054_9</slug>
     <sku_ep>MFM054</sku_ep>
     <product_tags/>
     <product_categories/>
@@ -184,10 +201,11 @@
     <genres>Pop|Pop</genres>
     <years>2021</years>
     <type>song</type>
-    <price>6</price>
-    <owners/>
+    <price>1.29</price>
+    <owners>music deli</owners>
     <product_visibility>hidden</product_visibility>
+    <featured_image>https://www.aze.digital/wp-content/uploads/2021/MFM054.jpg</featured_image>
     <download_file_name>The Zenmenn - Topaz 2 MFM054.wav</download_file_name>
-    <playlist_data_track>&lt;a href="http://player.yoyaku.io/mp3/MFM054_9.mp3&gt;The Zenmenn| - Topaz 2&lt;/a&gt;</playlist_data_track>
+    <playlist_data>&lt;a href="http://player.yoyaku.io/mp3/MFM054_9.mp3&gt;The Zenmenn - Topaz 2&lt;/a&gt;</playlist_data>
   </post>
 </data>

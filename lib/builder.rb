@@ -12,19 +12,19 @@ def build_xml(release, file)
                 xml.genres "#{file.xpath("//MainGenre")[0].content}|#{file.xpath("//Genre")[0].content}"
                 xml.years file.xpath("//PYear")[0].content
                 xml.type "release"
-                xml.price 8
-                xml.owners nil
+                xml.price fullPrice(release)
+                xml.description nil
+                xml.owners "music deli"
                 xml.product_visibility "visible"
-                xml.featured_image "lien image"
+                xml.featured_image "https://www.aze.digital/wp-content/uploads/2021/#{file.xpath("//Catalog")[0].content}.jpg"
                 xml.download_file_name "#{file.xpath("//Artists")[0].content} - #{file.xpath("//Name")[0].content} #{file.xpath("//Catalog")[0].content}"
                 xml.file_path nil
-                xml.playlist_data_album nil
-                xml.playlist_data_track nil
+                xml.playlist_data  buildDataTrack(release,file)
             }
             release.each do |song|
                 xml.post{
                     xml.title song.name
-                    xml.sku song.track_number
+                    xml.sku "#{file.xpath("//Catalog")[0].content}-#{song.track_number}"
                     xml.short_description song.description
                     xml.slug song.slug
                     xml.sku_ep file.xpath("//Catalog")[0].content
@@ -35,11 +35,12 @@ def build_xml(release, file)
                     xml.genres "#{song.main_genre}|#{song.secondary_genre}"
                     xml.years file.xpath("//PYear")[0].content
                     xml.type "song"
-                    xml.price 6
-                    xml.owners nil
+                    xml.price song.price
+                    xml.owners "music deli"
                     xml.product_visibility "hidden"
+                    xml.featured_image "https://www.aze.digital/wp-content/uploads/#{file.xpath("//PYear")[0].content}/#{file.xpath("//Catalog")[0].content}.jpg"
                     xml.download_file_name song.feat_artist ? "#{song.artists} & #{song.feat_artist} - #{song.name} #{file.xpath("//Catalog")[0].content}.wav" : "#{song.artists} - #{song.name} #{file.xpath("//Catalog")[0].content}.wav"
-                    xml.playlist_data_track "<a href=\"http:\/\/player.yoyaku.io/mp3/#{file.xpath("//Catalog")[0].content}_#{song.track_number}.mp3>#{song.artists}|#{song.feat_artist} - #{song.name}</a>"
+                    xml.playlist_data  song.feat_artist ? "<a href=\"http:\/\/player.yoyaku.io/mp3/#{file.xpath("//Catalog")[0].content}_#{song.track_number}.mp3>#{song.artists} & #{song.feat_artist} - #{song.name}</a>" :  "<a href=\"http:\/\/player.yoyaku.io/mp3/#{file.xpath("//Catalog")[0].content}_#{song.track_number}.mp3>#{song.artists} - #{song.name}</a>"
             }
             end
         }
